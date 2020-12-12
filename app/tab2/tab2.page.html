@@ -1,0 +1,55 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 2
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-card>
+  <ion-toolbar>
+    <ion-segment value="favorites">
+      <ion-segment-button value="favorites">
+        Favoritos
+      </ion-segment-button>
+      <ion-segment-button value="all">
+        Todos
+      </ion-segment-button>
+      <ion-segment-button value="noticias">
+          Noticias
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="person-circle-outline" slot="start"></ion-icon>
+      <ion-label>NicoPerez22</ion-label>
+    </ion-item>
+  <ion-card-content>
+      Keep close to Nature's heart... and break clear away, once in awhile,
+      and climb a mountain or spend a week in the woods. Wash your spirit clean.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+      <ion-item>
+        <ion-icon name="person-circle-outline" slot="start"></ion-icon>
+        <ion-label>ElverFloresta17</ion-label>
+      </ion-item>
+    <ion-card-content>
+        Keep close to Nature's heart... and break clear away, once in awhile,
+        and climb a mountain or spend a week in the woods. Wash your spirit clean.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-fab vertical="center" horizontal="end" edge slot="fixed">
+        <ion-fab-button>
+          <ion-icon (click)="addPub()" name="add-outline"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+
+</ion-content>

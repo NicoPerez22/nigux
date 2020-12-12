@@ -1,0 +1,115 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar fullscreen>
+    <div class="seachBar">
+      <ion-searchbar></ion-searchbar>
+    </div>
+    <div class="flecha">
+    <ion-title>
+        <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-title>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
+    <br>
+    <ion-col>
+
+      <div >
+          <div class="ion-text-center">
+              <img src="/assets/30004.png" width="100">
+          </div>
+          <div class="ion-text-center">
+            <p class="letra">NicoPerez22</p>
+          </div>
+          <div class="seguidores">
+              <p>Seguidores</p>
+              <p class="seguidoresCont">10K</p>
+          </div>
+          <div class="siguiendo">
+              <p>Siguiendo</p>
+              <p class="siguiendoCont">50K</p>
+          </div>
+      </div>
+
+    </ion-col>
+    <br>
+    <div clas>
+      <div class="span">
+        <ion-segment value="heart" [(ngModel)]="algo">
+            <ion-segment-button value="home">
+              <ion-icon name="home"></ion-icon>
+            </ion-segment-button>
+            <ion-segment-button value="list-outline">
+                <ion-icon name="list-outline"></ion-icon>
+            </ion-segment-button>
+            <ion-segment-button value="settings-outline">
+                <ion-icon name="settings-outline"></ion-icon>
+            </ion-segment-button>
+            
+          </ion-segment>
+      </div>
+
+    <div [ngSwitch]="algo">
+        <ion-list *ngSwitchCase="'settings-outline'">
+            <ion-item>
+                <ion-icon name="list-outline"></ion-icon>
+              <ion-label class="ion-text-center">Mis Publicaciones</ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-icon name="person-circle-outline"></ion-icon>
+              <ion-label class="ion-text-center">Cuenta</ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-icon name="globe-outline"></ion-icon>
+              <ion-label class="ion-text-center">Invitar Amigos</ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-icon name="settings-outline"></ion-icon>
+              <ion-label class="ion-text-center">Ajustes</ion-label>
+            </ion-item>
+        </ion-list>
+
+        <ion-list  *ngSwitchCase="'home'">
+            <div class="ion-text-center">
+              <h6 class="letra">Acerca de Mi</h6>
+            </div>
+            <div>
+              <p class="nombreStyle">NicoPerez22</p>
+            </div>
+            <div>
+                <p class="nombreStyle">Plataformas</p>
+                <ion-thumbnail slot="start">
+                  <div>
+                    <div>
+                        <ion-img src="/assets/play.png"></ion-img>
+                    </div>
+                    <div class="logoSteam">
+                        <ion-img src="/assets/Steam.png"></ion-img>
+                    </div>
+                  </div>
+                </ion-thumbnail>
+            </div>
+        </ion-list>
+
+        <ion-list *ngSwitchCase="'list-outline'">
+          <ion-card>
+                    <ion-item>
+                        <ion-icon name="person-circle-outline" slot="start"></ion-icon>
+                        <ion-label>NicoPerez22</ion-label>
+                      </ion-item>
+                    <ion-card-content>
+                        Keep close to Nature's heart... and break clear away, once in awhile,
+                        and climb a mountain or spend a week in the woods. Wash your spirit clean.
+                      </ion-card-content>
+          </ion-card>
+        </ion-list>
+    </div>
+  </div>
+
+</ion-content> -->

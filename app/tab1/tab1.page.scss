@@ -1,0 +1,93 @@
+ion-content{
+     --background: black url('../../assets/screen-2.jpg') no-repeat center center / cover;
+}
+// ion-toolbar {
+//     --background-color: transparent;
+//     --ion-color-base: transparent !important;
+// } */
+
+.letra{
+    color: #fff;
+}
+.nombreStyle {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #fff;
+}
+ion-thumbnail{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+ion-img{
+    width: 25px;
+    height: 25px;
+}
+ion-icon{
+    color: #fff;
+}
+ion-list{
+    background-color: transparent;
+}
+.logoSteam{
+    margin-top: -25px;
+    margin-left: 40px;
+}
+.seguidores{
+    margin-top: 10px;
+    margin-left: 90px;
+    color: #fff;
+}
+.seguidoresCont{
+    margin-top: -10px;
+    margin-left: 30px;
+    color: #fff;
+}
+.siguiendo{
+    margin-top: -58px;
+    margin-left: 200px;
+    color: #fff;
+}
+.siguiendoCont{
+    margin-top: -10px;
+    margin-left: 25px;
+    color: #fff;
+}
+.seachBar{
+    margin-top: -10px;
+    margin-left: 50px;
+    --border-radius: 5px;
+    margin-right: 8px;
+}
+.flecha{
+    margin-top: -32px;
+    margin-left: 2px;
+    margin-right: 20px;
+}
+// .fondoInferior{
+//         --background: #fff url('../../assets/screen-2.jpg') no-repeat center center / cover;
+// }
+ .span {
+     border: 1px solid white;
+     padding:  0em 1em;
+     //border-radius: 16px;
+     font-size: 24px;
+     line-height: 2;
+     background-color: black;
+ }
+ span.ex1 { 
+     -webkit-box-decoration-break: clone;
+     -o-box-decoration-break: clone;
+     box-decoration-break: clone;
+}
+// .fondoOscudo{
+//     margin-left: 0;
+//     margin-right: 0;
+//     margin-top: 0;
+//     margin-bottom: 0;
+//     padding-left: 0;
+//     padding-right: 0;
+//     padding-top: 60px;
+//     padding-bottom: 8px;
+//     background-color: black;
+// }
+  
